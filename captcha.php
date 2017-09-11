@@ -31,5 +31,3 @@ function printCaptchaCode($cd,$im,$fg){
   }
 }
 
-
-?>

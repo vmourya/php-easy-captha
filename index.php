@@ -6,7 +6,7 @@
 <form action="validate.php" method="post">
 Enter Image Text
 <input name="captcha" type="text">
-<img src="captcha1.php" /><br>
+<img src="captcha.php" /><br>
 <input name="submit" type="submit" value="Submit">
 </form>
 </body>

@@ -1,12 +1,13 @@
 <?php
 session_start();
-if(isset($_POST["captcha"])&&$_POST["captcha"]!=""&&$_SESSION["easyCaptchaCode"]==$_POST["captcha"])
+
+if(isset($_POST["captcha"]) && $_POST["captcha"]!=""&& $_SESSION["easyCaptchaCode"]==$_POST["captcha"])
 {
-echo "Correct Code Entered";
+  echo "Correct Code Entered";
 //Do you stuff
 }
 else
 {
-die("Wrong Code Entered");
+  die("Wrong Code Entered");
 }
 ?>
